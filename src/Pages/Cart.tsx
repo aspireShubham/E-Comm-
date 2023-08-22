@@ -21,7 +21,7 @@ const Cart: FC = () => {
             <h5>{product.title}</h5>
             <h5>{product.price}</h5>
             <button className="btn" onClick={() => handleRemove(product.id)}>
-              Remove
+              Remove Item
             </button>
           </div>
         ))}
