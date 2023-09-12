@@ -8,7 +8,9 @@ import Button from './components/Button'
 import { InputType } from './components/InputType';
 import Container from './components/StyleProps';
 import LoggedIn from './components/state/LoggedIn';
-import ReducerHook from './components/state/ReducerHook'
+import {ReducerHook} from './components/state/ReducerHook'
+import HookComponent from './HookComponent';
+
 
 
 const personName = {                                  //  Object
@@ -49,6 +51,9 @@ function Common() {   //       when hover on App =>   Type inference
     <LoggedIn />
 
     <ReducerHook/>
+
+     <HookComponent/>
+    
 
       </div>
     );
